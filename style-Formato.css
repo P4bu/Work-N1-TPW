@@ -1,0 +1,66 @@
+style
+* { 
+  margin:0;
+  padding:0;
+}
+a:link, a:visited, a:hover, a:active {
+  color:rgb(114, 230, 168);
+  font-size:16px;
+
+}
+body {
+  background:#eee;
+  font-family:verdana;
+}
+h1 {
+  color:#c0c;
+  font-size:24px;
+}
+p {
+  font-size:15px;
+}
+ul li{
+  list-style-type:none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+#cabecera {
+  color:skyblue;
+  background-color:grey;
+  padding:10px;
+}
+#contenedor {
+  margin: auto;
+  width:1600px;
+}
+#contenido {
+  background-color:#ddd;
+  float:left;
+  height:500px;
+  padding:10px;
+  width:1357px;
+}
+#menu {
+  background-color:#999;
+  float:left;
+  height:480px;
+  padding:20px;
+  width:180px;
+}
+#pie { 
+  background-color:#bbb;
+  clear:both;
+  color:#900;
+  padding:10px;
+  text-align:left;
+}
+
+.active{
+  background-color: #900;
+  color:beige;
+}
+
+.imagen{
+  max-width: 400px;
+}
+
